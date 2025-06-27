@@ -21,11 +21,16 @@ strong {
 /* /* para sacer la linea */
 /* para que caundo el cursor este arriba cambie de color */
 nav a:hover {
-    color: black;
+    color: rgb(255, 255, 255);
 }
-
+.titulo_header{
+    text-decoration: none;
+}
+.titulo_header:hover{
+    text-decoration: none;
+}
 header {
-    background-color: red;
+    background-color: rgb(0, 0, 0);
     display: flex;
     height: 70px;
     justify-content: space-between;
@@ -38,7 +43,8 @@ header {
     display: flex;
     align-items: center;
     font-size: 35px;
-    text-shadow: 2px -3px 3px rgb(255, 255, 255);
+    color: rgb(248, 211, 0);
+    text-shadow: 2px -3px 6px rgb(255, 255, 255);
     font-family: "League Gothic", sans-serif;
     font-optical-sizing: auto;
     font-weight: 200px;
@@ -48,7 +54,7 @@ nav a {
     padding: 6px;
     text-decoration: none;
     /* /* para sacer la linea */
-    color: rgb(255, 255, 255);
+    color: rgb(248, 211, 0);
 
     .text_redes {
         color: black;
