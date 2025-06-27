@@ -50,29 +50,53 @@ header {
     font-weight: 200px;
 }
 
-nav a {
-    padding: 6px;
-    text-decoration: none;
-    /* /* para sacer la linea */
-    color: rgb(248, 211, 0);
+nav ul.menu {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
 
-    .text_redes {
-        color: black;
-    }
+nav ul.menu > li {
+  position: relative;
+}
 
-    font-family: "Roboto",
-    'Lucida Sans',
-    'Lucida Sans Regular',
-    'Lucida Grande',
-    'Lucida Sans Unicode',
-    Geneva,
-    Verdana,
-    sans-serif,
-    sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+nav ul.menu > li > a {
+  padding: 6px;
+  text-decoration: none;
+  color: rgb(248, 211, 0);
+  font-weight: 600;
+}
+
+nav ul.submenu {
+  display: none;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  top: 100%;
+  left: 0;
+  min-width: 180px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+nav ul.submenu li a {
+  display: block;
+  padding: 20px;
+  color: rgb(248, 211, 0);
+  text-decoration: none;
+}
+
+nav ul.menu > li:hover > ul.submenu {
+  display: block;
+}
+
+nav ul.submenu li a:hover {
+    color: whitesmoke;
+  background-color: rgb(50, 50, 50);
+
 }
 
 
