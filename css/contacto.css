@@ -1,58 +1,75 @@
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: none;
-    margin: none;
-    border: none;
 
-    .subrayado {
-        text-decoration: underline black;
-    }
-
-}
 
 main {
-    background-image: url(../imagenes/contacto/sinsajo_liberandose_blanco_negro.jpeg);
-    height: 736px;
-    width: auto;
-    margin: 0%;
-    padding: 0%;
-    border: 0px;
+  background-image: url(../imagenes/contacto/sinsajo_liberandose_blanco_negro.jpeg);
+  background-repeat: repeat;
+  background-size: 50% auto; 
+  background-position: top center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
 }
 
-.dos_columnas_contacto {
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-    border: 1px;
-    justify-content: space-around;
-    text-align: left;
+.formulario_contenedor {
+    background-color: rgb(253, 252, 203);
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.25);
+  max-width: 500px;
+  width: 100%;
 }
 
-.columna_contacto {
-    background-color: #fbff058e;
-    margin: 10px;
-    padding: 30px;
+.formulario h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
 }
 
-.text_contacto {
-    color: rgb(0, 0, 0);
-    text-shadow: 5px -2px 5px rgb(190, 24, 24);
+.formulario {
+  display: flex;
+  flex-direction: column;
 }
 
-.columna_redes {
-    background-color: #fbff058e;
-    margin: 10px;
-    padding: 30px;
+.formulario label {
+  margin-top: 15px;
+  font-weight: bold;
 }
 
-.text_redes a {
-    color: rgb(0, 0, 0);
-    text-shadow: 5px -2px 5px rgb(190, 24, 24);
+.formulario input,
+.formulario select {
+  padding: 10px;
+  margin-top: 5px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  font-family: inherit;
 }
 
-.text_redes a:hover {
-    color: rgb(0, 0, 0);
+.formulario input:focus,
+.formulario select:focus {
+  border-color: #e6a307;
+  outline: none;
+}
+
+.ayuda {
+  font-size: 12px;
+  color: #555;
+  display: block;
+  margin-top: 5px;
+}
+
+.formulario button {
+  margin-top: 25px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #d33030;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background-color: #a82323;
 }

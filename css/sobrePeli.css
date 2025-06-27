@@ -46,48 +46,54 @@ figure {
     margin: 50px;
   }
 figcaption {
-    background-color: #222;
+    background-color: #000000;
+    font-size: 20px;
     color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 3px;
     text-align: center;
   }
 
-#Suzanne_Collins_autora{
-    display: flex;
+.contenedor_autores {
+  display: flex;
+  justify-content: center; 
+  gap: 30px;               
+  padding: 20px;
 }
 
-.suzannecollins_figure{
-    border: rgb(240, 7, 7) solid 4px;
-    width: 15%;
-    height: auto;
-    display: flex;
-    flex-flow: column;
-    margin-top: 5px;
-    margin-bottom: 5px;
+.autor_figure {
+  border: 4px solid rgb(240, 7, 7);
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+background-color: rgb(240, 7, 7);
+
+}
+
+.autor_figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.autor_figure figcaption {
+  background-color: rgb(240, 7, 7);
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
 }
 
 
-.suzannecollins_figcaption{
-    background-color: rgb(240, 7, 7);
-    color: #000000;
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 10px;
-    text-align: center;
-    padding-bottom: 13%;
-}
 
-.billy_ray_figcaption{
-    background-color: rgb(240, 7, 7);
-    color: #000000;
-    font-size: 14px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 27%;
+.video_contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
 }
-
 
 /* ver si se puede mover a global.css */
 .volver_arriba a{
