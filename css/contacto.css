@@ -1,0 +1,58 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: none;
+    margin: none;
+    border: none;
+
+    .subrayado {
+        text-decoration: underline black;
+    }
+
+}
+
+main {
+    background-image: url(../imagenes/contacto/sinsajo_liberandose_blanco_negro.jpeg);
+    height: 736px;
+    width: auto;
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+}
+
+.dos_columnas_contacto {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    border: 1px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.columna_contacto {
+    background-color: #fbff058e;
+    margin: 10px;
+    padding: 30px;
+}
+
+.text_contacto {
+    color: rgb(0, 0, 0);
+    text-shadow: 5px -2px 5px rgb(190, 24, 24);
+}
+
+.columna_redes {
+    background-color: #fbff058e;
+    margin: 10px;
+    padding: 30px;
+}
+
+.text_redes a {
+    color: rgb(0, 0, 0);
+    text-shadow: 5px -2px 5px rgb(190, 24, 24);
+}
+
+.text_redes a:hover {
+    color: rgb(0, 0, 0);
+}

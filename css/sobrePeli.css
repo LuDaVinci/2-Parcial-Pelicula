@@ -1,0 +1,105 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    text-align: left;
+    .subrayado{
+        text-decoration: underline black;
+    }
+}
+
+.texto_sobrepeli{
+    text-indent: 20px;
+    width: 90%;
+    margin-left: 30px;
+}
+
+#voluntaria_derecha{
+    width: 317px;
+    height: auto;
+    float: right;
+    border: #2804f7 solid;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgb(221, 7, 240);
+    margin: 20px;
+}
+
+ul{
+    margin-left: 30px;
+}
+
+.subrayado{
+    margin-top: 60px;
+}
+
+figure {
+    border:  #222 solid;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    padding: auto;
+    margin: 50px;
+  }
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+#Suzanne_Collins_autora{
+    display: flex;
+}
+
+.suzannecollins_figure{
+    border: #1c9718 solid 4px;
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.suzannecollins_figcaption{
+    background-color: #58da53;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 13%;
+}
+
+.billy_ray_figcaption{
+    background-color: #58da53;
+    color: #000000;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 27%;
+}
+
+
+/* ver si se puede mover a global.css */
+.volver_arriba a{
+    text-decoration: none;
+}
+
+.volver_arriba{
+    color: rgb(49, 10, 49);
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.volver_arriba :hover{
+    color: black;
+}
+
+

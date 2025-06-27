@@ -1,0 +1,120 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: rgb(248, 239, 227);
+}
+
+/* ver si se puede mover a global.css */
+#margenes {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+#libros_indice_saga a {
+    text-decoration: none;
+    color: black;
+}
+
+#libros_indice_saga :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+#peli_indice_saga a {
+    text-decoration: none;
+    color: black;
+}
+
+#peli_indice_saga :hover {
+    color: white;
+    text-decoration: underline;
+}
+
+
+/* seguir trando de  acihcar el indice */
+.contededor_indice_saga {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    padding: 30px;
+}
+
+.titulo_indice_todasaga {
+    margin: 0px;
+    font-size: 25px;
+}
+
+.indice {
+    background-color: #4b2a2a;
+    color: whitesmoke;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: -1px 5px 3px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.indice_librosypeliculas {
+    color: black;
+    background-color: #b98a8a;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+
+/* mide el espacio entre Libros y Pelis c/sus puntos */
+.columna h3 {
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}
+
+.tapas_libros {
+    background-color: rgb(167, 128, 77);
+    border: black 5px dashed;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+}
+
+.poster_peli {
+    background-color: rgb(113, 212, 73);
+    border: black 3px dotted;
+    width: 250px;
+    height: auto;
+    margin: 10px;
+
+}
+
+/* ver si se puede mover a global.css */
+.volver_arriba a {
+    text-decoration: none;
+}
+
+.volver_arriba {
+    color: rgb(49, 10, 49);
+    font-size: 13px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.volver_arriba :hover {
+    color: black;
+}
