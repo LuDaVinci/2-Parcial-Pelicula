@@ -99,6 +99,11 @@ nav ul.submenu li a:hover {
 
 }
 
+.espaciado_li li {
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
 
 footer {
     color: rgb(249, 200, 136);

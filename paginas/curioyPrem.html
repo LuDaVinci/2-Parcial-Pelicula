@@ -37,7 +37,6 @@
 </head>
 
 <body>
-    <!-- poner link en el titutlo del nav -->
 
     <header>
         <div>
@@ -45,13 +44,45 @@
                 <h1 class="nombreSaga">Saga: JUEGOS DEL HAMBRE</h1>
             </a>
         </div>
+
         <nav>
-            <a href="../index.html" class="nav link">Home</a>
-            <a href="./sobrePeli.html" class="nav link">Sobre la Pelicula</a>
-            <a href="./reparto.html" class="nav link">Reparto</a>
-            <a href="./todasaga.html" class="nav link">La Saga</a>
-            <a href="./curioyPrem.html" class="nav link">Curiocidades y Premios</a>
-            <a href="./contacto.html" class="nav link">Contacto</a>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+
+                <li><a href="../paginas/sobrePeli.html">Sobre la Película</a>
+                    <ul class="submenu">
+                        <li><a href="../paginas/sobrePeli.html#sinoppeli_sobrepeli">Sinopsis</a></li>
+                        <li><a href="../paginas/sobrePeli.html#localidades_sobrepeli">Localizaciones</a></li>
+                        <li><a href="../paginas/sobrePeli.html#detallesproc_sobrepeli">Detalles sobre la Produccion</a>
+                        </li>
+                        <li><a href="../paginas/sobrePeli.html#soundtrack_sobrepeli">Soundtrack</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../paginas/reparto.html">Reparto</a>
+                    <ul class="submenu">
+                        <li><a href="../paginas/reparto.html#imag_reparto">Imagenes</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../paginas/todasaga.html">La Saga</a>
+                    <ul class="submenu">
+                        <li><a href="../paginas/todasaga.html#libros_info">Libros</a></li>
+                        <li><a href="../paginas/todasaga.html#peliculas_info">Películas</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="../paginas/curioyPrem.html">Curiosidades y Premios</a>
+                    <ul class="submenu">
+                        <li><a href="../paginas/curioyPrem.htmll#estgrabacion_curio">Estudio de Grabacion</a></li>
+                        <li><a href="../paginas/curioyPrem.html#rodaje_curio">Curiocidades Rodaje</a></li>
+                        <li><a href="../paginas/curioyPrem.html#genearal_curio">Curiocidades Generales</a></li>
+                        <li><a href="../paginas/curioyPrem.html#prem_curio">Premios</a></li>
+                    </ul>
+                </li>
+                </li>
+                <li><a href="../paginas/contacto.html">Contacto</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -68,51 +99,64 @@
 
             <ul>
                 <section>
-                    <li>
-                        <h2 id="Estudios_Grabación" class="indice_puntos">Estudios de Grabación</h2>
-                    </li>
-                    <ol>
-                        <li>
-                            <h3> Lionsgate Films</h3>
-                        </li>
-                        <p>Tuvo el rol de ser la productora y distribuidora principal de toda la saga. Ya que, en 2009,
-                            adquirió los derechos cinematográficos de las novelas de Suzanne Collins. Se encargó de
-                            financiar, producir y destruir toda la saga a nivel global. Es también el estudio detrás de
-                            las
-                            secuelas En Llamas, Sinsajo Parte 1 y 2,
-                            Balada de Pájaros Cantores y Serpientes y Amanecer en la cosecha.</p>
-                        <li>
-                            <h3>Color Force</h3>
-                        </li>
-                        <p>Fue una productora que inicialmente compro los derechos de las novelas. Pero Nina Jacobson
-                            fundadora de Color Force, convenció a Lionsgate de unirse al proyecto y fue productora en
-                            toda
-                            la saga.
-                            También, se mantiene en las siguientes películas.</p>
-                    </ol>
-                    <div id="contenedor_logos">
-                        <img id="Color_Force_Logo" src="../Imagenes/curiosidad/Color_Force_Logo.WEBP"
-                            alt="logo_colorforce_con_raya_zingzang_roja_entre_color_y_force">
-                        <img id="lionsgate_logo" src="../Imagenes/curiosidad/lionsgate_logo.WEBP"
-                            alt="lionsgate_logo_fondo_blanco_letras_negras">
+                    <div class="contenido_derecha">
+                        <div class="texto_estudio">
+                            <li>
+                                <h2 id="estgrabacion_curio" id="Estudios_Grabación" class="indice_puntos">Estudios de
+                                    Grabación</h2>
+                            </li>
+                            <ol class="espaciado_li">
+                                <li>
+                                    <h3> <strong>Lionsgate Films</strong> </h3>
+                                </li>
+                                <p>Tuvo el rol de ser la productora y distribuidora principal de toda la saga. Ya que,
+                                    en
+                                    2009,
+                                    adquirió los derechos cinematográficos de las novelas de Suzanne Collins. Se encargó
+                                    de
+                                    financiar, producir y destruir toda la saga a nivel global. Es también el estudio
+                                    detrás
+                                    de
+                                    las
+                                    secuelas En Llamas, Sinsajo Parte 1 y 2,
+                                    Balada de Pájaros Cantores y Serpientes y Amanecer en la cosecha.</p>
+                                <li>
+                                    <h3><strong>Color Force</strong></h3>
+                                </li>
+                                <p>Fue una productora que inicialmente compro los derechos de las novelas. Pero Nina
+                                    Jacobson
+                                    fundadora de Color Force, convenció a Lionsgate de unirse al proyecto y fue
+                                    productora
+                                    en
+                                    toda
+                                    la saga.
+                                    También, se mantiene en las siguientes películas.</p>
+                            </ol>
+                        </div>
+                        <div id="contenedor_logos">
+                            <img id="Color_Force_Logo" src="../Imagenes/curiosidad/Color_Force_Logo.WEBP"
+                                alt="logo_colorforce_con_raya_zingzang_roja_entre_color_y_force">
+                            <img id="lionsgate_logo" src="../Imagenes/curiosidad/lionsgate_logo.WEBP"
+                                alt="lionsgate_logo_fondo_blanco_letras_negras">
+                        </div>
                     </div>
                 </section>
 
                 <section>
                     <article>
                         <li>
-                            <h2 id="Curiosidades_Rodaje" class="indice_puntos">Curiosidades sobre el Rodaje</h2>
+                            <h2 id="rodaje_curio" id="Curiosidades_Rodaje" class="indice_puntos">Curiosidades sobre el
+                                Rodaje</h2>
 
                         </li>
-                        <ol>
+                        <ol class="espaciado_li">
                             <li>
-                                <p><strong>Rodaje en locaciones reales</strong>
+                                <p><strong>Rodaje en locaciones reales.</strong>
                                     Gran parte de la película se filmó en exteriores reales de Carolina del Norte, lo
-                                    que le
-                                    dio un aspecto más natural y auténtico.</p>
+                                    que le dio un aspecto más natural y auténtico.</p>
                             </li>
                             <li>
-                                <p><strong> Los efectos de fuego fueron en su mayoría digitales</strong>
+                                <p><strong> Los efectos de fuego fueron en su mayoría digitales.</strong>
                                     Aunque se usaron en ciertos momentos fuego real, en su mayor parte se utilizaron
                                     efectos
                                     especiales para dar más calidad y además el rodaje se realizó en el exterior por lo
@@ -120,14 +164,14 @@
                                     llamas durante la ceremonia de apertura fueron hechas con CGI</p>
                             </li>
                             <li>
-                                <p><strong>Jennifer Lawrence sufrió una lesión durante el rodaje</strong>
+                                <p><strong>Jennifer Lawrence sufrió una lesión durante el rodaje.</strong>
                                     Durante una de las primeras semanas de filmación, Jennifer se golpeó fuertemente el
                                     abdomen al chocar con una pared mientras corría en una escena de acción.
                                     Afortunadamente
                                     no fue grave.</p>
                             </li>
                             <li>
-                                <p><strong>Rodaje secreto y nombre falso</strong>
+                                <p><strong>Rodaje secreto y nombre falso.</strong>
                                     Para evitar la atención de la prensa y fanáticos durante el rodaje, la producción
                                     usó el
                                     nombre falso "Artemis", inspirado en la diosa griega de la caza.</p>
@@ -157,7 +201,7 @@
                                     frente
                                     a la pobreza de los distritos.</p>
                                 <div id="cuatro_personajes_estan_comiendo_alimientos_capitolio">
-                                    <img src="../Imagenes/curiosidad/personajer_comida.JPEG"
+                                    <img class="personajes_comida" src="../Imagenes/curiosidad/personajer_comida.JPEG"
                                         alt="cuatro_personajes_estan_comiendo_alimientos_capitolio">
                                 </div>
                             </li>
@@ -167,9 +211,10 @@
                     </article>
 
                     <li>
-                        <h2 id="Curiosidades_Generales" class="indice_puntos">Curiosidades Generales</h2>
+                        <h2 id="genearal_curio" id="Curiosidades_Generales" class="indice_puntos">Curiosidades Generales
+                        </h2>
                     </li>
-                    <ol class="puntos_curi">
+                    <ol class="espaciado_li" class="puntos_curi">
                         <li>Había un tarro de malas palabras en el set. El coguionista y director Gary Ross dijo que la
                             mitad fue aportada por Jennifer Lawrence .</li>
                         <li>Mientras jugaba en el set, Jennifer Lawrence pateó accidentalmente a Josh Hutcherson en la
@@ -230,13 +275,13 @@
 
                 <article>
                     <li>
-                        <h2 id="Premios" class="indice_puntos">Premios</h2>
+                        <h2 id="prem_curio" id="Premios" class="indice_puntos">Premios</h2>
                     </li>
                     <div class="contenedor_tabla">
                         <table>
                             <thead>
                                 <tr>
-                                    <th> <strong>Persona</strong></th>
+                                    <th><strong>Persona</strong></th>
                                     <th><strong>Categoria</strong></th>
                                     <th><strong>Resultado</strong></th>
                                     <th><strong>Fecha</strong></th>
