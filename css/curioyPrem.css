@@ -161,10 +161,10 @@ figcaption {
 height: 318.984px;
 width: auto;  }
 
-.volver_arriba a{
+/* .volver_arriba a{
     text-decoration: none;
 }
-
+ */
 /* ver si se puede mover a global.css */
 /* .volver_arriba{
     color: rgb(49, 10, 49);
