@@ -124,10 +124,9 @@ body {
 }
 
 /* ver si se puede mover a global.css */
-.volver_arriba a {
+/* .volver_arriba a {
     text-decoration: none;
 }
-
 .volver_arriba {
     color: rgb(49, 10, 49);
     font-size: 13px;
@@ -137,7 +136,6 @@ body {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-
 .volver_arriba :hover {
     color: black;
-}
+} */

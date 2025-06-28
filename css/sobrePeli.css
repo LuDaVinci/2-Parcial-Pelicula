@@ -93,10 +93,11 @@ background-color: rgb(240, 7, 7);
   justify-content: center;
   align-items: center;
   padding: 40px 0;
+  margin-bottom: 55px;
 }
 
 /* ver si se puede mover a global.css */
-.volver_arriba a{
+/* .volver_arriba a{
     text-decoration: none;
 }
 
@@ -111,6 +112,6 @@ background-color: rgb(240, 7, 7);
 }
 .volver_arriba :hover{
     color: black;
-}
+} */
 
 

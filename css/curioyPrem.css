@@ -145,6 +145,7 @@ figure {
     display: flex;
     flex-flow: column;
     margin: auto;
+    margin-bottom: 55px;
   }
 figcaption {
     background-color: #222;
@@ -165,7 +166,7 @@ width: auto;  }
 }
 
 /* ver si se puede mover a global.css */
-.volver_arriba{
+/* .volver_arriba{
     color: rgb(49, 10, 49);
     font-size: 13px;
     text-transform: uppercase;
@@ -176,5 +177,5 @@ width: auto;  }
 }
 .volver_arriba :hover{
     color: black;
-}
+} */
 

@@ -42,6 +42,7 @@ article{
     padding-left: 90px;
     padding-right: 90px;
     margin:10px;
+    margin-bottom: 105px;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
@@ -127,7 +128,7 @@ figcaption{
     padding-right: 40px;}
 
 /* ver si se puede mover a global.css */
-.volver_arriba a{
+/* .volver_arriba a{
     text-decoration: none;
 }
 .volver_arriba{
@@ -142,3 +143,4 @@ figcaption{
 .volver_arriba :hover{
     color: black;
 }
+ */
